@@ -8,14 +8,14 @@
     "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vicky Li <vickylioiki@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.13",
     "@types/formidable": "^2.0.5",
     "@types/jsonfile": "^6.1.0",
-    "@types/node": "^18.7.14",
+    "@types/node": "^18.7.23",
     "@types/pg": "^8.6.5",
     "bcryptjs": "^2.4.3",
     "cross-fetch": "^3.1.5",
@@ -24,15 +24,20 @@
     "express-session": "^1.17.3",
     "formidable": "^2.0.1",
     "grant": "^5.4.21",
+    "knex": "^2.3.0",
     "pg": "^8.8.0",
     "socket.io": "^4.5.2",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^4.8.2",
+    "typescript": "^4.8.4",
     "winston": "^3.8.1"
   },
   "devDependencies": {
     "@types/express-session": "^1.17.5",
-    "prettier": "2.7.1"
-  }
+    "@types/jest": "^29.0.3",
+    "jest": "^29.0.3",
+    "prettier": "2.7.1",
+    "ts-jest": "^29.0.2"
+  },
+  "repository": "git@github.com:Vickylioiki/Memo-Wall-New.git"
 }
